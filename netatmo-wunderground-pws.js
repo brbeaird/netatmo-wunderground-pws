@@ -11,6 +11,10 @@ var netatmo_pws = function (args) {
     this.setAuthVars(args);
   };
 
+netatmo_pws.prototype.getClientDetails = function (){
+    return netatmoClient;
+}
+
 netatmo_pws.prototype.setAuthVars = function(args) {
     netatmoAuth = {
         "client_id": args.netamo_client_id,
