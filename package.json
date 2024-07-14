@@ -1,6 +1,6 @@
 {
   "name": "netatmo-wunderground-pws",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Connects Netatmo data to a Weather Underground PWS",
   "main": "netatmo-wunderground-pws.js",
   "scripts": {

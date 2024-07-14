@@ -78,6 +78,9 @@ netatmo_pws.prototype.getNetatmoData = async function (){
                 }
             }
         }
+        else{
+            stationData = await netatmoClient.getStationData();
+        }
 
         const accessDetails = {
             accessToken: netatmoClient.accessToken,
